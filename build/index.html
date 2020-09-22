@@ -5,16 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">    <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'/>
+
+    <title>Vuper</title>
   </head>
 
 <body>
-  <header>
-
+  <header onclick="myFunction()"  class="header dropbtn">
+        <div class="glitch dropbtn" data-text="MENU">MENU</div>
+        <nav id="myDropdown" class="dropdown-content">
+            <div class="glitch menu_glitch" data-text="Menu">Menu</div>
+            <a class="menu_item" href="#">Кейсы</a>
+            <a class="menu_item" href="#">Отзывы</a>
+            <a class="menu_item" href="#">Контакты</a>
+            <a class="menu_item" href="#">Услуги</a>
+            <a class="menu_item" href="#">О нас</a>
+            <a class="menu_item" href="#">Бриф</a>
+            <a class="menu_item" href="#">Бесплатный макет</a>
+            <button class="callback-nav callback">
+                <a title="Заказать звонок" href="tel:+79274736313"><img class="phone-img" src="../images/phone.svg" alt="Телефон"></a>
+            </button>
+        </nav>
+        <button class="callback">
+            <a title="Заказать звонок" href="tel:+79274736313"><img class="phone-img" src="../images/phone.svg" alt="Телефон"></a>
+        </button>
 </header>
   <!-- WRITE CODE HERE -->
-
-
+  <section class="promo">
+    <div class="promo__header">Vuper</div>
+    <div class="promo__upt-wrapper">
+      <div class="promo__utp-header">Разработка сайтов</div>
+      <div class="promo__utp-descr">Мы занимаемся созданием качественных сайтов для Вашего бизнеса под ключ, упаковкой бренда 
+        и развитием проектов  в digital.</div>
+      <button class="promo__utp-btn">Узнать подробнее</button>
+    </div>
+    <div class="promo__subupt-wrapper">
+      <div class="promo__subutp-header">Получите макет Вашего сайта БЕСПЛАТНО</div>
+      <button class="promo__subutp-btn">Получить макет</button>
+    </div>
+  </section>
+  <h1>commit tet</h1>
   <!-- STOP WRITE CODE -->
   <footer>
   

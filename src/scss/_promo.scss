@@ -1,0 +1,103 @@
+.promo {
+    background: url(../images/promo-bg.png) no-repeat;
+    background-color: rgba(255, 212, 60, 1);
+    padding: 4px 14px;
+}
+
+
+.promo__header {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #292929;
+    text-align: center;
+}
+.promo__upt-wrapper {
+    margin-top: 8px;
+    background: #292929;
+    box-shadow: 0px 28px 30px rgba(0, 0, 0, 0.3);
+    padding: 8.75px 18px 9.8px 19px;
+}
+.promo__utp-header {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.promo__utp-descr {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.promo__utp-btn {
+    display: block;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292929;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px 10px 8px 10px;
+    border: none;
+}
+
+.promo__subupt-wrapper {
+    margin-top: 10px;
+    background: #ffffff;
+    box-shadow: 0px 28px 30px rgba(255, 255, 255, 0.6);
+    padding: 14px 9px 11px 19px;
+    margin-bottom: 102px;
+}
+.promo__subutp-header {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292929;
+}
+
+.promo__subutp-btn {
+    display: block;
+    margin: 0 auto;
+    background: #292929;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px 10px 8px 10px;
+    border: none;
+}
+
+.callback-nav {
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    padding-left: 1px;
+}

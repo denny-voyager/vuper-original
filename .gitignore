@@ -4,5 +4,5 @@
 .vs
 
 node_modules/
-gulpfile.js/
+gulpfile.js
 package.lock.json

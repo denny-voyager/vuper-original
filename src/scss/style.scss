@@ -31,27 +31,27 @@
 
 .glitch:after {
   animation: glitch-animation 2s infinite linear alternate-reverse;
-  background: #FFD43C;
+  
   clip: rect( 0, 900px, 0, 0 );
   color: #292929;
   content: attr( data-text );
-  left: 2px;
+  left: 1px;
   overflow: hidden;
   position: absolute;
-  text-shadow: -1px 0 red;
+  text-shadow: -1px  0 black;
   top: 0;
 }
 
 .glitch:before {
   animation: glitch-animation-2 3s infinite linear alternate-reverse;
-  background: #FFD43C;
+  
   clip: rect( 0, 900px, 0, 0 );
   color: #292929;
   content: attr( data-text );
-  left: -2px;
+  left: -1px;
   overflow: hidden;
   position: absolute;
-  text-shadow: 1px 0 blue;
+  text-shadow: 1px  0 rgb(15, 14, 14);
   top: 0;
 }
 

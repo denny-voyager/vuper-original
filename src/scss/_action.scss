@@ -1,0 +1,31 @@
+.action {
+    padding: 14px 14px 71px 14px;
+    background-color: #292929;
+}
+
+.action__items {
+    margin-top: 24px;
+}
+
+.action__item {
+    margin-top: 8px;
+}
+
+.action__item-header {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.action__item-descr {
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

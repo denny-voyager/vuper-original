@@ -11,6 +11,15 @@
     display: flex;
 }
 
+
+.test {
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background-color: #ffd43c;
+}
 .glitch {
   text-align: center;
   color: white;
@@ -193,11 +202,14 @@
   border: none;
   text-decoration: none;
   outline: none;
+  display: flex;
+  justify-content: center;
 }
 
 .phone-img {
   height: 17px;
   width: 17px;
+  align-self: center;
 }
 
 .dropbtn {
@@ -291,3 +303,5 @@
 @import 'cases';
 @import 'free';
 @import 'brief';
+@import 'reviews';
+@import 'contacts';

@@ -1,7 +1,7 @@
 body {
-    background: url(../images/background.svg) no-repeat;
+    background: fixed url(../images/background.svg) no-repeat;
     background-color: rgba(255, 212, 60, 1);
-    background-attachment: fixed, fixed;
+    background-attachment: fixed;
 }
 
 .promo {
@@ -78,7 +78,7 @@ body {
     display: block;
     margin: 0 auto;
     background: #292929;
-    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     font-style: italic;
     font-weight: 800;
     font-size: 18px;
@@ -89,6 +89,7 @@ body {
     margin-top: 20px;
     padding: 8px 10px 8px 10px;
     border: none;
+
 }
 
 .callback-nav {

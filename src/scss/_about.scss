@@ -2,7 +2,7 @@
     padding-top: 36px;
     padding: 20px 12px 36px 12px;
     background-color: #fff;
-    width: 295px;
+    width: 93%;
     display: block;
     margin: 0 auto;
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6), inset 0px 1px 2px rgba(0, 0, 0, 0.25);
@@ -41,11 +41,10 @@
 
 .about__descr {
     display: inline;
-    color: #292929;
+    color: black;
     margin-top: 20px;
-    font-family: Montserrat sans-serif;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 12px;
     line-height: 17px;
     width: 100%;
@@ -58,17 +57,18 @@
 }
 
 
+.about__slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
 
 .about__slider-squad-black, .about__slider-squad-yellow {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 38px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    padding-left: 38px;
-    padding-right: 37px;
-    width: 90%;
+    width: 226px;
     display: block;
+    margin: 0 auto;
+    padding: 45px 35px 45px 35px;
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 700;
@@ -80,6 +80,8 @@
     color: #fff;
     z-index: 3;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: -153px;
+    cursor: pointer;
 }
 
 .yellow {
@@ -88,11 +90,9 @@
 }
 
 .about__slider-squad-yellow {
+    position: relative;
+    left: -15px;
     background-color: #ffd43c;
-    margin-top: -200px;
-    width: 70%;
-    position: absolute;
-    z-index: 2;
 }
 
 .about__leaders {

@@ -31,26 +31,25 @@
 .glitch:after {
   animation: glitch-animation 3s infinite linear alternate-reverse;
   clip: rect( 0, 900px, 0, 0 );
-  background-color: rgba(#FFD43C, .9);
   color: #292929;
   content: attr( data-text );
-  left: 1px;
+  left: 0.5px;
   overflow: hidden;
   position: absolute;
-  text-shadow: -1px  0 black;
+  text-shadow: -0.5px  0 black;
   top: 0;
 }
 
 .glitch:before {
   animation: glitch-animation-2 3s infinite linear alternate-reverse;
   clip: rect( 0, 900px, 0, 0 );
-  background-color: rgba(#FFD43C, .9);
+  
   color: #292929;
   content: attr( data-text );
-  left: -1px;
+  left: -0.5px;
   overflow: hidden;
   position: absolute;
-  text-shadow: 1px  0 rgb(15, 14, 14);
+  text-shadow: 0.5px  0 rgb(15, 14, 14);
   top: 0;
 }
 
@@ -217,7 +216,7 @@
   text-align: center;
   align-self: center;
   margin: 0 auto;
-  font-weight: normal;
+  font-style: italic;
   font-size: 24px;
   line-height: 14px;
   color: #FFFFFF;
@@ -226,6 +225,7 @@
 }
 
 .menu_glitch {
+  font-style: italic;
   text-align: center;
   margin: 0 auto;
   font-weight: normal;
@@ -289,3 +289,5 @@
 @import 'about';
 @import 'action';
 @import 'cases';
+@import 'free';
+@import 'brief';

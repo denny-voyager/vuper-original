@@ -1,0 +1,23 @@
+.reviews {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.reviews .cases__slider .cases__slider-slide .cases__slider-top {
+    height: 125px;
+}
+
+
+.reviews .cases__slider .cases__slider-slide .cases__slider-bottom {
+    z-index: 2;
+    position: relative;
+}
+
+.reviews .cases__slider .cases__slider-slide .cases__slider-top .cases__slider-text {
+    padding: 95px 0 6px;
+}
+
+
+.reviews .cases__slider .cases__slider-slide .cases__slider-bottom .cases__slider-site {
+    text-align: center;
+}

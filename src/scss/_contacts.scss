@@ -1,0 +1,64 @@
+.contacts {
+    padding: 20px 14px;
+    background-color: #292929;
+}
+
+.contacts__info-wrapper {
+    margin-top: 20px;
+}
+
+
+.contacts__info {
+    padding: 6px 0;
+    background: #FFD43C;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #292929;
+    margin-bottom: 10px;
+}
+
+.form-header {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+.contacts__form {
+    padding: 6px 0;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.9);
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292929;
+}
+
+
+.form__textarea {
+    width: 100%;
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.9);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #292929;
+    padding-bottom: 95px;
+}
+
+.contacts .promo__utp-btn {
+    background-color: #FFD43C;
+    box-shadow: none;
+    color: #FFFFFF;
+}

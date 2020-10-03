@@ -5,6 +5,7 @@
 <body>
   @@include('components/_header.html')
   <!-- WRITE CODE HERE -->
+<div class="main__content"></div>
   <section class="promo">
     <div class="promo__header glitch" data-text="Vuper">Vuper</div>
     <div class="promo__upt-wrapper">
@@ -19,7 +20,7 @@
     </div>
   </section>
   <section class="about">
-      <hr class="about__line left__line"></hr><div class="about_title">О нас</div><hr class="about__line right__line"></hr>
+      <div class="about_title"> <span>О нас</span></div>
       <h2 class="about__descr-bigger">Vuper -</h2><p class="about__descr"> это студия разработки сайтов, объединившая креативные умы со всех уголков нашей страны для того, чтобы делать свежие 
         и интересные проекты, которые 
         будут выделяться и приносить результат. </p>
@@ -61,9 +62,7 @@
       </div>
     </section>
     <section class="cases">
-      <div class="case__header">
-        <hr class="about__line left__line case__line"></hr><div class="about_title case__title">Кейсы</div><hr class="about__line right__line case__line"></hr>
-      </div>
+       <div class="about_title case__title"><span>Кейсы</span></div>
       <div class="cases__slider">
         <div class="cases__slider-slide">
           <div class="cases__slider-top">
@@ -112,7 +111,47 @@
       <p class="seven-questions">7 вопросов которые помогут нам быстро расчитать цену.</p>
       <button class="promo__subutp-btn">Пройти бриф</button>
     </section>
-  <h1>commit tet</h1>
+    <section class="reviews">
+      <div class="case__header">
+        <hr class="about__line left__line case__line"></hr><div class="about_title case__title">Отзывы</div><hr class="about__line right__line case__line"></hr>
+      </div>
+      <div class="cases__slider">
+        <div class="cases__slider-slide">
+          <div class="cases__slider-top">
+            <img src="/images/about_director.jpg" alt="Фон кейсов" class="cases__slider-bg">
+            <div class="cases__slider-text">
+              <div class="cases__slider-name">Владислав Ильич</div>
+            
+            </div>
+          </div>
+          <div class="cases__slider-bottom">
+            <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+              Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+              Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+              <div class="cases__slider-site">Название.ru</div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <hr class="about__line left__line case__line"></hr><div class="about_title case__title">Контакты</div><hr class="about__line right__line case__line"></hr>
+      <div class="contacts__info-wrapper">
+        <div class="contacts__info">Санкт-Петербург</div>
+        <div class="contacts__info">8 920 768 86 64</div>
+        <div class="contacts__info">Vuper@st.ru</div>
+        <div class="contacts__info">inst: @vuper.inst</div>
+      </div>
+      <h2 class="form-header">
+        Задайте вопрос
+      </h2>
+      <form action="" class="callback_form">
+        <input type="text" placeholder="Ваше имя" class="contacts__form">
+        <input type="text" placeholder="Номер телефона" class="contacts__form">
+        <input type="textarea" placeholder="Вопрос писать тут!" class="contacts__form form__textarea">
+      </form>
+      <button class="promo__utp-btn">Отправить</button>
+    </section>
   <!-- STOP WRITE CODE -->
   @@include('components/_footer.html')
   @@include('components/_scripts.html')

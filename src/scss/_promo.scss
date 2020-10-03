@@ -1,6 +1,6 @@
 .main__content {
     height: 100vh;
-    background: url(/images/background.svg);
+    background: url(/images/background.svg) center (center/cover) no-repeat;
     position: fixed;
     width: 100%;
     z-index: -3;

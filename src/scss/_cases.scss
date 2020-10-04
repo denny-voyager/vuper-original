@@ -17,19 +17,27 @@
     margin-top: 20px;
 }
 
+.cases__slider-top {
+    position: relative;
+    margin-bottom: -5px;
+}
 
 .cases__slider-bg {
-    position: absolute;
+    width: 100%;
 }
 
 .cases__slider-text {
-    padding: 65px 0 6px 0;
     position: relative;
     align-self: center;
     text-align: center;
 }
 
 .cases__slider-name {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: Montserrat;
     font-style: italic;
     font-weight: 600;
@@ -40,7 +48,11 @@
 
 
 .cases__slider-site {
-    margin-top: 36px;
+    position: absolute;
+    top: 82%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: Montserrat;
     font-style: italic;
     font-weight: 600;

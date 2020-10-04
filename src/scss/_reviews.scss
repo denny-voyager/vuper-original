@@ -12,6 +12,36 @@
     height: 125px;
 }
 
+.reviews-name {
+    top: 73%;
+    font-size: 16px;
+    position: absolute;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.reviews-site {
+    margin-top: 10px;
+    position: relative;
+    top: 100%;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+
 
 .reviews .cases__slider .cases__slider-slide .cases__slider-bottom {
     z-index: 2;

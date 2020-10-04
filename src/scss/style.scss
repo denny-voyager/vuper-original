@@ -11,12 +11,6 @@
     display: flex;
 }
 
-
-.test {
-  font-weight: 700;
-  font-style: italic;
-}
-
 body {
   background-color: #ffd43c;
 }
@@ -43,10 +37,10 @@ body {
   color: #292929;
   content: attr( data-text );
   background-color: #ffd43c;
-  left: 0.5px;
+  left: 1px;
   overflow: hidden;
   position: absolute;
-  text-shadow: -0.5px  0 rgb(0, 0, 255);
+  text-shadow: -1px  0 rgb(0, 0, 255);
   top: 0;
 }
 
@@ -56,10 +50,10 @@ body {
   background-color: #ffd43c;
   color: #292929;
   content: attr( data-text );
-  left: -0.5px;
+  left: -1px;
   overflow: hidden;
   position: absolute;
-  text-shadow: 0.5px  0 rgb(255, 0, 0);
+  text-shadow: 1px  0 rgb(255, 0, 0);
   top: 0;
 }
 
@@ -255,7 +249,7 @@ body {
   top: -2000px;
   position: absolute;
   background-color: #292929;
-  width: 320px;
+  width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   text-transform: uppercase;

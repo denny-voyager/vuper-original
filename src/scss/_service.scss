@@ -1,0 +1,63 @@
+.service__header {
+    background-color: #292929;
+    padding: 20px 0;
+}
+
+
+.service__title {
+    color: #292929;
+    background-color: #fff;
+}
+
+.our__services-wrapper {
+    padding: 20px 14px 0px;
+}
+
+.our__services-header {
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action__item-header {
+    display: flex;
+    justify-content: space-between;
+    line-height: 18px;
+}
+
+
+.service__btn {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292929;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 7px 10px 7px 10px;
+}
+
+.action__item-price {
+    margin-top: -6px;
+}
+
+
+.service .our__services-wrapper .action__item-header, .action__item-descr {
+    padding-left: 6px;
+    padding-right: 12px;
+}
+
+.action__item-deleted-price {
+    font-size: 12px;
+}

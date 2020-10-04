@@ -42,23 +42,24 @@ body {
   clip: rect( 0, 900px, 0, 0 );
   color: #292929;
   content: attr( data-text );
+  background-color: #ffd43c;
   left: 0.5px;
   overflow: hidden;
   position: absolute;
-  text-shadow: -0.5px  0 black;
+  text-shadow: -0.5px  0 rgb(0, 0, 255);
   top: 0;
 }
 
 .glitch:before {
   animation: glitch-animation-2 3s infinite linear alternate-reverse;
   clip: rect( 0, 900px, 0, 0 );
-  
+  background-color: #ffd43c;
   color: #292929;
   content: attr( data-text );
   left: -0.5px;
   overflow: hidden;
   position: absolute;
-  text-shadow: 0.5px  0 rgb(15, 14, 14);
+  text-shadow: 0.5px  0 rgb(255, 0, 0);
   top: 0;
 }
 

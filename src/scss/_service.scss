@@ -29,6 +29,8 @@
     display: flex;
     justify-content: space-between;
     line-height: 18px;
+    padding-left: 6px;
+    padding-right: 13px;
 }
 
 
@@ -53,9 +55,16 @@
 }
 
 
-.service .our__services-wrapper .action__item-header, .action__item-descr {
+.service-descr {
     padding-left: 6px;
-    padding-right: 12px;
+    padding-right: 13px;
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
 
 .action__item-deleted-price {

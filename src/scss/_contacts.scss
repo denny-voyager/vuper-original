@@ -7,15 +7,16 @@
     margin-top: 20px;
 }
 
-
-.contacts__title {
-    background-color: #fff;
-    color: #292929;
-    width: 48%;
+.contacts__line {
+    border: 1px solid #FFFFFF;
+    width: 25%;
 }
 
-.contacts__line {
-    width: 24%;
+
+.contacts__title {
+    color: #292929;
+    width: 45%;
+    background: #FFFFFF;
 }
 
 .contacts__info {

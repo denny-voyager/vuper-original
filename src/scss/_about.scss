@@ -8,37 +8,39 @@
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6), inset 0px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
-.heading__line {
-    margin-top: 15px;
-    border: 1px solid #292929;
-    display: inline;
-    position: absolute;
-    width: 32%;
-    left: 12px;
-}
-
-.heading__line-second {
-    right: 12px;
-    margin-top: -15px;
-    border: 1px solid #292929;
-    display: inline;
-    position: absolute;
-    width: 32%;
-}
 
 .about_title {
-    background-color: #292929;
-    color: #fff;
-    display: flex;
-    justify-content: center;
+    padding: 1px;
+    display: block;
     margin: 0 auto;
-    width: 33%;
-    height: 30px;
+    background: #292929;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+    width: 32%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.first {
+    margin-top: 15px;
+    border: 1px solid #292929;
+    display: inline;
+    position: absolute;
+    width: 33%;
+    left: 12px;
+}
+
+.second {
+    right: 12px;
+    margin-top: -16px;
+    border: 1px solid #292929;
+    display: inline;
+    position: absolute;
+    width: 33%;
 }
 
 

@@ -1,6 +1,46 @@
+.service {
+    background: #ffd43c;
+    padding-bottom: 30px;
+}
+
+
 .service__header {
     background-color: #292929;
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
+}
+
+.special {
+    margin-top: 20px;
+    background: url(../images/service_bg.svg) center (center/cover) no-repeat;
+    background-color: #ffd43c;
+    padding: 9px 0px 22px 0px;
+}
+
+.special__header {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #292929;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 9px;
+}
+
+.special__price {
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 22px;
+    text-align: center;
+    color: #292929;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -11,6 +51,7 @@
 
 .our__services-wrapper {
     padding: 20px 14px 0px;
+    box-shadow: 0px 28px 30px rgba(0, 0, 0, 0.3)
 }
 
 .our__services-header {
@@ -25,7 +66,7 @@
     justify-content: space-between;
 }
 
-.action__item-header {
+.service .our__services-wrapper .action__item .action__item-header {
     display: flex;
     justify-content: space-between;
     line-height: 18px;
@@ -46,7 +87,6 @@
     border: none;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
     padding: 7px 10px 7px 10px;
 }
 
@@ -69,4 +109,18 @@
 
 .action__item-deleted-price {
     font-size: 12px;
+}
+
+.change__slide {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service__standart {
+    border-left: 10px solid  #8BFFA5;
+    border-right: 10px solid  #8BFFA5;
+    border-top: 1px solid  #8BFFA5;
+    border-bottom: 1px solid #8BFFA5;
+    box-shadow: 0px 0px 33px rgba(60, 255, 103, 0.4), inset -8px 0px 7px #8BFFA5;
 }

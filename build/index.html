@@ -15,13 +15,13 @@
         <div class="menu dropbtn">MENU</div>
         <nav id="myDropdown" class="dropdown-content">
             <div class="menu_glitch">Menu</div>
-            <a class="menu_item" href="#">Кейсы</a>
-            <a class="menu_item" href="#">Отзывы</a>
-            <a class="menu_item" href="#">Контакты</a>
-            <a class="menu_item" href="#">Услуги</a>
-            <a class="menu_item" href="#">О нас</a>
-            <a class="menu_item" href="#">Бриф</a>
-            <a class="menu_item menu_last" href="#">Бесплатный макет</a>
+            <a class="menu_item" href="#case">Кейсы</a>
+            <a class="menu_item" href="#review">Отзывы</a>
+            <a class="menu_item" href="#contact">Контакты</a>
+            <a class="menu_item" href="#servise">Услуги</a>
+            <a class="menu_item" href="#about">О нас</a>
+            <a class="menu_item" href="#brief">Бриф</a>
+            <a class="menu_item menu_last" href="#free">Бесплатный макет</a>
             <button class="callback-nav callback">
                 <a title="Заказать звонок" href="tel:+79274736313"><img class="phone-img" src="../images/phone.svg" alt="Телефон"></a>
             </button>
@@ -43,7 +43,7 @@
       <button class="promo__subutp-btn">Получить макет</button>
     </div>
   </section>
-  <section class="about">
+  <section class="about" id="about">
       <hr class=" first about__line"><div class="about_title">О нас</div><hr class=" second about__line">
       <h2 class="about__descr-bigger">Vuper -</h2><p class="about__descr"> это студия разработки сайтов, объединившая креативные умы со всех уголков нашей страны для того, чтобы делать свежие 
         и интересные проекты, которые 
@@ -85,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section class="cases">
+    <section class="cases" id="case">
       <hr class=" first cases__line"><div class="about_title cases__title">Кейсы</div><hr class=" second cases__line">
       <div class="cases__slider">
         <div class="cases__slider-slide">
@@ -104,7 +104,7 @@
       </div>
       <button class="case__btn">Хочу так же</button>
     </section>
-    <section class="free">
+    <section class="free" id="free">
       <h2 class="promo__subutp-header free__header">Бесплатный макет</h2>
       <h3 class="free__subheader">Что Вы получаете?</h3>
       <div class="free__quadro-wrapper">
@@ -130,7 +130,7 @@
         и показываем как он будет выглятеть после разработки. </div>
         <button class="promo__subutp-btn">Получить макет</button>
     </section>
-    <section class="service">
+    <section class="service" id="servise">
       <div class="service__header">
         <hr class=" first cases__line"><div class="about_title service__title">Услуги</div><hr class=" second cases__line">
         <div class="special">
@@ -164,12 +164,12 @@
 
       </div>
     </section>
-    <section class="brief about">
+    <section class="brief about" id="brief">
       <hr class=" first about__line"><div class="about_title">Бриф</div><hr class=" second about__line">
       <p class="seven-questions">7 вопросов которые помогут нам быстро расчитать цену.</p>
       <button class="promo__subutp-btn">Пройти бриф</button>
     </section>
-    <section class="reviews">
+    <section class="reviews" id="review">
       <div class="case__header">
         <hr class=" first reviews__line"><div class="about_title cases__title">Отзывы</div><hr class=" second reviews__line">
       </div>
@@ -192,7 +192,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contact">
       <hr class=" first contacts__line"><div class="about_title contacts__title">Контакты</div><hr class=" second contacts__line">
       <div class="contacts__info-wrapper">
         <div class="contacts__info">Санкт-Петербург</div>
@@ -203,12 +203,12 @@
       <h2 class="form-header">
         Задайте вопрос
       </h2>
-      <form action="" class="callback_form">
-        <input type="text" placeholder="Ваше имя" class="contacts__form">
-        <input type="text" placeholder="Номер телефона" class="contacts__form">
-        <input type="textarea" placeholder="Вопрос писать тут!" class="contacts__form form__textarea">
+      <form action="" class="callback_form" id="form">
+        <input type="text" name="name" required placeholder="Ваше имя" class="contacts__form">
+        <input type="tel" name="phone" required  placeholder="Номер телефона" class="contacts__form" id="phone">
+        <input type="textarea" required placeholder="Вопрос писать тут!" class="contacts__form form__textarea">
+        <button type="submit" class="promo__utp-btn">Отправить</button>
       </form>
-      <button class="promo__utp-btn">Отправить</button>
     </section>
   <!-- STOP WRITE CODE -->
   <footer>
@@ -216,6 +216,7 @@
 </footer>
   <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
+
 </body>
 
 </html>

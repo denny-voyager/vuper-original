@@ -26,7 +26,7 @@
         будут выделяться и приносить результат. </p>
       <div class="about__slider-wrapper">
         <div class="about__slider-squad-yellow" onclick="swapDiv(event,this);"><p class="yellow">за 1 год</p> усердной работы</div>
-        <div class="about__slider-squad-black" onclick="swapDiv(event,this);"><p class="yellow">за 1 год</p> усердной работы</div>
+        <div class="about__slider-squad-black" onclick="swapDiv(event,this);" ><p class="yellow">за 1 год</p> усердной работы</div>
       </div>
       <p class="about__us">Мы построили весь процесс работы так, чтобы его было максимально удобно контролировать и Вы были уверенны в результате. </p>
       <div class="about__slider">
@@ -111,27 +111,28 @@
           <div class="special__header">Cкидка на разработку сайта</div> <br>
           <div class="special__price">-45%</div>
         </div>
-        <div class="our__services-wrapper">
-          <div class="our__services-header">
-            <img src="../images/left-arrow.svg" alt="Стрелка влево" class="nav__arrow-left">
-            Landing Page
-            <img src="../images/right-arrow.svg" alt="Стрелка вправо" class="nav__arrow-right">
+          <div class="our__services-wrapper ">
+            <div class="our__services-header">
+              <img src="../images/left-arrow.svg" onclick="minusSlide()" alt="Стрелка влево" class="nav__arrow-left">
+              Landing Page
+              <img src="../images/right-arrow.svg" onclick="minusSlide()" alt="Стрелка вправо" class="nav__arrow-right">
+            </div>
+            <div class="action__item ">
+              <hr></hr>
+              <div class="action__item-header"><div class="action__item-name">Минимум</div><div class="action__item-price"> <del class="action__item-deleted-price">24 000</del>  <br> От 10 500</div></div>
+              <div class="service-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores numquam reprehenderit aliquid ex adipisci ratione, harum, minima dolorum consequuntur doloremque! Mollitia exercitationem ex blanditiis odit iure? Magni, ex at!</div>
+            </div>
+            <div class="action__item service__standart">
+              <div class="action__item-header"><div class="action__item-name">Стандарт</div><div class="action__item-price"> <del class="action__item-deleted-price">53 000</del>  <br> От 24 500</div></div>
+              <div class="service-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nemo, optio ipsam, consequuntur repellendus vel illo sit sunt reprehenderit repellat nisi quas ipsum iure obcaecati fugit consequatur mollitia qui exercitationem.</div>
+            </div>
+            <div class="action__item">
+              <div class="action__item-header"><div class="action__item-name">Премиум</div><div class="action__item-price"> <del class="action__item-deleted-price">68 000</del>  <br> От 30 500</div></div>
+              <div class="service-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorem ipsam quasi velit nostrum officia. Ut culpa deserunt, molestiae autem harum placeat ex nostrum, non delectus perspiciatis tempora, asperiores laboriosam!</div>
+              <hr></hr>
+            </div>
           </div>
-          <div class="action__item">
-            <hr></hr>
-            <div class="action__item-header"><div class="action__item-name">Минимум</div><div class="action__item-price"> <del class="action__item-deleted-price">24 000</del>  <br> От 10 500</div></div>
-            <div class="service-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores numquam reprehenderit aliquid ex adipisci ratione, harum, minima dolorum consequuntur doloremque! Mollitia exercitationem ex blanditiis odit iure? Magni, ex at!</div>
-          </div>
-          <div class="action__item service__standart">
-            <div class="action__item-header"><div class="action__item-name">Стандарт</div><div class="action__item-price"> <del class="action__item-deleted-price">53 000</del>  <br> От 24 500</div></div>
-            <div class="service-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nemo, optio ipsam, consequuntur repellendus vel illo sit sunt reprehenderit repellat nisi quas ipsum iure obcaecati fugit consequatur mollitia qui exercitationem.</div>
-          </div>
-          <div class="action__item">
-            <div class="action__item-header"><div class="action__item-name">Премиум</div><div class="action__item-price"> <del class="action__item-deleted-price">68 000</del>  <br> От 30 500</div></div>
-            <div class="service-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorem ipsam quasi velit nostrum officia. Ut culpa deserunt, molestiae autem harum placeat ex nostrum, non delectus perspiciatis tempora, asperiores laboriosam!</div>
-            <hr></hr>
-          </div>
-        </div>
+
         <div class="change__slide"><img src="../images/left-arrow.svg" alt="Стрелка влево" class="nav__arrow-left">
           <button class="service__btn">Узнать цену</button>
           <img src="../images/right-arrow.svg" alt="Стрелка вправо" class="nav__arrow-right"></div>
@@ -145,7 +146,7 @@
     </section>
     <section class="reviews" id="review">
       <div class="case__header">
-        <hr class=" first reviews__line"><div class="about_title cases__title">Отзывы</div><hr class=" second reviews__line">
+        <hr class=" first reviews__line"><div class="about_title cases__title reviews__title">Отзывы</div><hr class=" second reviews__line">
       </div>
       <div class="cases__slider">
         <div class="cases__slider-slide">

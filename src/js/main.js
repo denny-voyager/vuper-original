@@ -1,3 +1,5 @@
+
+
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
@@ -19,7 +21,12 @@ function myFunction() {
 
 function swapDiv(event,elem){
   elem.parentNode.insertBefore(elem,elem.parentNode.firstChild);
+  let black = document.querySelector('.about__slider-squad-black'),
+      yellow = document.querySelector('.about__slider-squad-yellow');
+  yellow.style.left = '0px';
+  black.style.left ='-15px';
 };
+
 
 $("body").on('click', '[href*="#"]', function(e){
   var fixed_offset = 1;

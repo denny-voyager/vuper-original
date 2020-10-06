@@ -1,17 +1,17 @@
 .free__header {
     font-size: 24px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 21px;
     padding-top: 14px;
 }
 
-.free {
+.free__content {
     background-color: #ffffff;
     width: 92%;
     display: block;
     margin: 0 auto;
     padding-bottom: 30px;
-    
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6), inset 0px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -23,7 +23,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #292929;
-    margin-left: 10px;
+    margin-left: 21px;
 }
 
 
@@ -34,8 +34,25 @@
     margin-bottom: 10px;
     font-size: 14px;
     width: 48%;
+    line-height: 17px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
+
+.free__quadro-item_yellow-text {
+    color: #FFD43C;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -51,17 +68,63 @@
 }
 
 
-.free .free__quadro-wrapper .free__quadro-item .yellow {
-    margin-top: 5px;
-    font-size: 25px;
-}
-
 .free__quadro-first-row, .free__quadro-second-row {
     display: flex;
     justify-content: space-between;
 }
 
-.free .action__item-descr {
+.free__descr {
     color: #292929;
     margin-left: 4px;
+}
+
+.left__item::before {
+    content: "";
+    background-color: #292929;
+    width: 14px;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    height: 112px;
+    box-shadow: inset -4px 0px 9px rgba(0, 0, 0, 0.6);
+}
+
+.left__item-second::before {
+    content: "";
+    background-color: #292929;
+    width: 14px;
+    position: absolute;
+    left: 0;
+    top: 195px;
+    height: 112px;
+    box-shadow: inset -4px 0px 9px rgba(0, 0, 0, 0.6);
+}
+
+
+.right__item::before {
+    content: "";
+    background-color: #292929;
+    width: 14px;
+    position: absolute;
+    right: 0;
+    top: 73px;
+    height: 112px;
+    box-shadow: inset 4px 0px 9px rgba(0, 0, 0, 0.6);
+}
+
+.right__item-second::before {
+    content: "";
+    background-color: #292929;
+    width: 14px;
+    position: absolute;
+    right: 0;
+    top: 195px;
+    height: 112px;
+    box-shadow: inset 4px 0px 9px rgba(0, 0, 0, 0.6)
+}
+
+.free__text {
+    font-weight: 500;
+    margin-left: 0;
+    display: inline;
 }

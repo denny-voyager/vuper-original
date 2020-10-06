@@ -39,3 +39,8 @@ input:focus {
 body{
   font-family: 'Montserrat'
 }
+.section__wrapper {
+  position: relative;
+  background: #F2EFEF;
+  box-shadow: inset -4px 4px 11px rgba(0, 0, 0, 0.15), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

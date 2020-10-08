@@ -15,6 +15,19 @@
     padding: 9px 0px 22px 0px;
 }
 
+.item__title {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    padding-left: 6px;
+    padding-right: 25px;
+}
+
 .special__header {
     font-family: Montserrat;
     font-style: italic;
@@ -41,6 +54,9 @@
     margin: 0 auto;
 }
 
+.nav__arrow-left, .nav__arrow-right {
+    outline: none;
+}
 
 .service__title {
     color: #292929;

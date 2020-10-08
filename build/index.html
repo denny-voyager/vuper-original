@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Vuper</title>
   </head>
@@ -24,10 +26,10 @@
             <a title="Бриф" class="menu_item" href="#brief">Бриф</a>
             <a title="Бесплатный макет" class="menu_item menu_last" href="#free">Бесплатный макет</a>
             <button class="callback-nav callback">
-                <a title="Заказать звонок" href="tel:+79274736313"><img class="phone-img" src="../images/phone.svg" alt="Телефон"></a>
+                <a title="Заказать звонок" href="tel:+79274736313"><img class="phone-img" src="./images/phone__icon.svg" alt="Телефон"></a>
             </button>
         </nav>
-            <a title="Заказать звонок" class="callback" href="tel:+79274736313"><img class="phone-img" src="../images/phone.svg" alt="Телефон"></a>
+            <a title="Заказать звонок" class="callback" href="tel:+79274736313"><img class="phone-img" src="../images/phone__icon.svg" alt="Телефон"></a>
 </header>
   <!-- WRITE CODE HERE -->
 <div class="main__content"></div>
@@ -91,16 +93,85 @@
     </section>
     <section class="cases" id="case">
       <hr class=" first cases__line"><div class="about_title cases__title">Кейсы</div><hr class=" second cases__line">
-      <div class="cases__slider">
-        <div class="cases__slider-slide">
-          <div class="cases__slider-top">
-            <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
-            <div class="cases__slider-name">Название</div>
-            <div class="cases__slider-site">Название.ru</div>
+      <div class="swiper-container cases-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="cases__slider-name">Название</div>
+                <div class="cases__slider-site">Название.ru</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+              </div>
+            </div>
           </div>
-          <div class="cases__slider-bottom">
-            <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
-              Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="cases__slider-name">Название</div>
+                <div class="cases__slider-site">Название.ru</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="cases__slider-name">Название</div>
+                <div class="cases__slider-site">Название.ru</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="cases__slider-name">Название</div>
+                <div class="cases__slider-site">Название.ru</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="cases__slider-name">Название</div>
+                <div class="cases__slider-site">Название.ru</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/case__bg.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="cases__slider-name">Название</div>
+                <div class="cases__slider-site">Название.ru</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -141,28 +212,56 @@
           <div class="special__header">Cкидка на разработку сайта</div> <br>
           <div class="special__price">-45%</div>
         </div>
-          <div class="our__services-wrapper ">
-            <div class="our__services-header">
-              <img src="../images/left-arrow.svg" onclick="minusSlide()" alt="Стрелка влево" class="nav__arrow-left">
-              Landing Page
-              <img src="../images/right-arrow.svg" onclick="minusSlide()" alt="Стрелка вправо" class="nav__arrow-right">
+        <div class="service-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="our__services-wrapper ">
+                <div class="our__services-header">
+                  <img src="../images/left-arrow.svg" onclick="minusSlide()" alt="Стрелка влево" class="nav__arrow-left">
+                  Landing Page
+                  <img src="../images/right-arrow.svg" onclick="minusSlide()" alt="Стрелка вправо" class="nav__arrow-right">
+                </div>
+                <div class="action__item ">
+                  <hr></hr>
+                  <div class="item__title"><div class="action__item-name">Минимум</div><div class="action__item-price"> <del class="action__item-deleted-price">24 000</del>  <br> От 10 500</div></div>
+                  <div class="service-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores numquam reprehenderit aliquid ex adipisci ratione, harum, minima dolorum consequuntur doloremque! Mollitia exercitationem ex blanditiis odit iure? Magni, ex at!</div>
+                </div>
+                <div class="action__item service__standart">
+                  <div class="item__title"><div class="action__item-name">Стандарт</div><div class="action__item-price"> <del class="action__item-deleted-price">53 000</del>  <br> От 24 500</div></div>
+                  <div class="service-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nemo, optio ipsam, consequuntur repellendus vel illo sit sunt reprehenderit repellat nisi quas ipsum iure obcaecati fugit consequatur mollitia qui exercitationem.</div>
+                </div>
+                <div class="action__item">
+                  <div class="item__title"><div class="action__item-name">Премиум</div><div class="action__item-price"> <del class="action__item-deleted-price">68 000</del>  <br> От 30 500</div></div>
+                  <div class="service-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorem ipsam quasi velit nostrum officia. Ut culpa deserunt, molestiae autem harum placeat ex nostrum, non delectus perspiciatis tempora, asperiores laboriosam!</div>
+                  <hr></hr>
+                </div>
+              </div>  
             </div>
-            <div class="action__item ">
-              <hr></hr>
-              <div class="action__item-header"><div class="action__item-name">Минимум</div><div class="action__item-price"> <del class="action__item-deleted-price">24 000</del>  <br> От 10 500</div></div>
-              <div class="service-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores numquam reprehenderit aliquid ex adipisci ratione, harum, minima dolorum consequuntur doloremque! Mollitia exercitationem ex blanditiis odit iure? Magni, ex at!</div>
-            </div>
-            <div class="action__item service__standart">
-              <div class="action__item-header"><div class="action__item-name">Стандарт</div><div class="action__item-price"> <del class="action__item-deleted-price">53 000</del>  <br> От 24 500</div></div>
-              <div class="service-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nemo, optio ipsam, consequuntur repellendus vel illo sit sunt reprehenderit repellat nisi quas ipsum iure obcaecati fugit consequatur mollitia qui exercitationem.</div>
-            </div>
-            <div class="action__item">
-              <div class="action__item-header"><div class="action__item-name">Премиум</div><div class="action__item-price"> <del class="action__item-deleted-price">68 000</del>  <br> От 30 500</div></div>
-              <div class="service-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorem ipsam quasi velit nostrum officia. Ut culpa deserunt, molestiae autem harum placeat ex nostrum, non delectus perspiciatis tempora, asperiores laboriosam!</div>
-              <hr></hr>
+            <div class="swiper-slide">
+              <div class="our__services-wrapper ">
+                <div class="our__services-header">
+                  <img src="../images/left-arrow.svg" onclick="minusSlide()" alt="Стрелка влево" class="nav__arrow-left">
+                  Многостраничник
+                  <img src="../images/right-arrow.svg" onclick="minusSlide()" alt="Стрелка вправо" class="nav__arrow-right">
+                </div>
+                <div class="action__item ">
+                  <hr></hr>
+                  <div class="item__title"><div class="action__item-name">Минимум</div><div class="action__item-price"> <del class="action__item-deleted-price">24 000</del>  <br> От 10 500</div></div>
+                  <div class="service-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores numquam reprehenderit aliquid ex adipisci ratione, harum, minima dolorum consequuntur doloremque! Mollitia exercitationem ex blanditiis odit iure? Magni, ex at!</div>
+                </div>
+                <div class="action__item service__standart">
+                  <div class="item__title"><div class="action__item-name">Стандарт</div><div class="action__item-price"> <del class="action__item-deleted-price">53 000</del>  <br> От 24 500</div></div>
+                  <div class="service-descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nemo, optio ipsam, consequuntur repellendus vel illo sit sunt reprehenderit repellat nisi quas ipsum iure obcaecati fugit consequatur mollitia qui exercitationem.</div>
+                </div>
+                <div class="action__item">
+                  <div class="item__title"><div class="action__item-name">Премиум</div><div class="action__item-price"> <del class="action__item-deleted-price">68 000</del>  <br> От 30 500</div></div>
+                  <div class="service-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolorem ipsam quasi velit nostrum officia. Ut culpa deserunt, molestiae autem harum placeat ex nostrum, non delectus perspiciatis tempora, asperiores laboriosam!</div>
+                  <hr></hr>
+                </div>
+              </div>  
             </div>
           </div>
-
+        </div>  
         <div class="change__slide"><img src="../images/left-arrow.svg" alt="Стрелка влево" class="nav__arrow-left">
           <button class="service__btn">Узнать цену</button>
           <img src="../images/right-arrow.svg" alt="Стрелка вправо" class="nav__arrow-right"></div>
@@ -179,30 +278,108 @@
       <div class="case__header">
         <hr class=" first reviews__line"><div class="about_title cases__title reviews__title">Отзывы</div><hr class=" second reviews__line">
       </div>
-      <div class="cases__slider">
-        <div class="cases__slider-slide">
-          <div class="cases__slider-top">
-            <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
-              <div class="reviews-name">Владислав Ильич</div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+            <div class="cases__slider-top">
+              <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="reviews-name">Владислав Ильич</div>
+            </div>
+            <div class="cases__slider-bottom">
+              <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+                <div class="reviews-site">Название.ru</div>
+              </p>
+            </div>
           </div>
-          <div class="cases__slider-bottom">
-            <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
-              Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
-              Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
-              <div class="reviews-site">Название.ru</div>
-            </p>
+        </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+            <div class="cases__slider-top">
+              <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
+                <div class="reviews-name">Владислав Ильич</div>
+            </div>
+            <div class="cases__slider-bottom">
+              <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+                <div class="reviews-site">Название.ru</div>
+              </p>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
+                  <div class="reviews-name">Владислав Ильич</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+                  <div class="reviews-site">Название.ru</div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
+                  <div class="reviews-name">Владислав Ильич</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+                  <div class="reviews-site">Название.ru</div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
+                  <div class="reviews-name">Владислав Ильич</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+                  <div class="reviews-site">Название.ru</div>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cases__slider-slide">
+              <div class="cases__slider-top">
+                <img src="/images/reviews.png" alt="Фон кейсов" class="cases__slider-bg">
+                  <div class="reviews-name">Владислав Ильич</div>
+              </div>
+              <div class="cases__slider-bottom">
+                <p class="cases__slider-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus enim ipsum volutpat eleifend volutpat consequat. 
+                  Magna pellentesque accumsan et commodo eu hendrerit ultrices et.
+                  <div class="reviews-site">Название.ru</div>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
     <section class="contacts" id="contact">
       <hr class=" first contacts__line"><div class="about_title contacts__title">Контакты</div><hr class=" second contacts__line">
       <div class="contacts__info-wrapper">
-        <div class="contacts__info">Санкт-Петербург</div>
-        <div class="contacts__info"><a title="Телефон" href="tel:8 920 768 86 64">8 920 768 86 64</a></div>
-        <div class="contacts__info">Vuper@st.ru</div>
-        <div class="contacts__info"><a title="Инстаграм" href="http://instagram.com/vuper.inst">inst: @vuper.inst</a></div>
+        <div class="contacts__info">Санкт-Петербург <img src="./images/adress__icon.svg" alt="Иконка адреса" class="contacts__icons"></div>
+        <div class="contacts__info"><a title="Телефон" href="tel:8 920 768 86 64">8 920 768 86 64</a><img src="./images/phone__icon.svg" alt="Иконка телефона" class="contacts__icons"></div>
+        <div class="contacts__info">Vuper@st.ru <img src="./images/mail__icon.svg" alt="Иконка адреса почты" class="contacts__icons"></div>
+        <div class="contacts__info"><a title="Инстаграм" href="http://instagram.com/vuper.inst">inst: @vuper.inst</a><img src="./images/inst__icon.svg" alt="Иконка Инстаграм" class="contacts__icons"></div>
       </div>
       <h2 class="form-header">
         Задайте вопрос
@@ -210,7 +387,7 @@
       <form action="" class="callback_form" id="form">
         <input type="text" name="name" required placeholder="Ваше имя" class="contacts__form">
         <input type="tel" name="phone" required  placeholder="Номер телефона" class="contacts__form" id="phone">
-        <input type="textarea" required placeholder="Вопрос писать тут!" class="contacts__form form__textarea">
+        <input type="textarea" required placeholder="Ваш вопрос!" class="contacts__form">
         <button class="promo__utp-btn">Отправить</button>
       </form>
     </section>
@@ -218,7 +395,9 @@
   <footer>
   
 </footer>
-  <script src="js/libs.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 
 </body>

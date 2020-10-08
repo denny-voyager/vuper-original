@@ -28,8 +28,28 @@ function swapDiv(event,elem){
 };
 
 
+
 $("body").on('click', '[href*="#"]', function(e){
   var fixed_offset = 1;
   $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
   e.preventDefault();
+});
+
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+});
+
+
+var service = new Swiper('.service-container', {
+  navigation: {
+    nextEl: '.nav__arrow-right',
+    prevEl: '.nav__arrow-left',
+  },
+  slidesPerView: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
 });

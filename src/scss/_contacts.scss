@@ -20,15 +20,18 @@
 }
 
 .contacts__info {
-    padding: 6px 0;
-    background: #FFD43C;
+    padding: 6px 18px 6px 14px;
+    background: #ffffff;
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    text-align: center;
+    text-align: left;
     color: #292929;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .form-header {
@@ -42,16 +45,19 @@
 
 
 .contacts__form {
-    padding: 6px 0;
-    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.9);
     margin-top: 10px;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding: 6px 0 6px 14px;
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #292929;
+    background: none;
+    border-radius: 0%;
+    border: 1px solid #292929;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 
@@ -76,10 +82,10 @@
 }
 
 
-::-webkit-input-placeholder {color:black;}
-::-moz-placeholder          {color:black;}/* Firefox 19+ */
-:-moz-placeholder           {color:black;}/* Firefox 18- */
-:-ms-input-placeholder      {color:black;}
+::-webkit-input-placeholder {color:#ffffff;}
+::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#FFFFFF;}
 
 
 :focus::-webkit-input-placeholder {

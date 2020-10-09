@@ -40,7 +40,18 @@ var swiper = new Swiper('.swiper-container', {
   spaceBetween: 30,
   slidesPerGroup: 1,
   loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   loopFillGroupWithBlank: true,
+});
+
+var swiper = new Swiper('.about-container', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
 });
 
 

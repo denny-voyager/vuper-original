@@ -9,6 +9,10 @@
 .header {
     background-color: #292929;
     display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000;
 }
 
 .bright {
@@ -31,6 +35,16 @@
   width: 320px;
   height: 100%;
   overflow: hidden;
+}
+
+.about-container {
+  height: 350px;
+  overflow: hidden;
+}
+
+.about-slide {
+  padding: 0 40px 0 40px;
+  width: 80%;
 }
 
 
@@ -315,7 +329,9 @@ body {
   transition: top 0.7s;
 }
 
+.header {
 
+}
 
 
 //-----------------------------------------------------------------------------------------------------------

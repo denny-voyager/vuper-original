@@ -21,18 +21,18 @@
 
 .swiper-container {
   width: 100%;
-  height: 430px;
+  height: 100%;
   padding-left: 43px;
   padding-right: 43px;
 }
 
 .cases-container {
   margin-top: 20px;
-  height: 300px;
+  height: 100%;
 }
 
 .service-container {
-  width: 320px;
+  width: 100%;
   height: 100%;
   overflow: hidden;
 }
@@ -55,6 +55,16 @@
   padding-bottom: 10px;
 }
 
+
+.status {
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
 body {
   background-color: #ffd43c;
 }

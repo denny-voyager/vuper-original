@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -399,10 +398,10 @@
       <h2 class="form-header">
         Задайте вопрос
       </h2>
-      <form action="" class="callback_form" id="form">
+      <form action="" method="POST" class="callback_form" id="form">
         <input type="text" name="name" required placeholder="Ваше имя" class="contacts__form">
         <input type="tel" name="phone" required  placeholder="Номер телефона" class="contacts__form" id="phone">
-        <input type="textarea" required placeholder="Ваш вопрос!" class="contacts__form">
+        <input type="textarea" name="quest" required placeholder="Ваш вопрос!" class="contacts__form">
         <button class="promo__utp-btn">Отправить</button>
       </form>
     </section>

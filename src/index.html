@@ -260,7 +260,7 @@
     <div class="brief__content">
       <hr class=" first about__line"><div class="about_title">Бриф</div><hr class=" second about__line">
       <p class="seven-questions">7 вопросов которые помогут нам быстро расчитать цену.</p>
-      <button class="promo__subutp-btn brief__btn">Пройти бриф</button>
+      <button class="promo__subutp-btn brief__btn" id="btn_modal_window">Пройти бриф</button>
     </section>
     <section class="reviews" id="review">
       <div class="case__header">
@@ -379,6 +379,24 @@
         <button class="promo__utp-btn">Отправить</button>
       </form>
     </section>
+    <div id="my_modal" class="modal">
+      <div class="modal_content">
+        
+        <div class="center-modal_wrapper">
+          <p class="our__services-header brief__header">Какой сайт вам нужен?</p>
+         <button value="Одностраничный сайт"  class="contacts__info brief-input">Одностраничный сайт</button>
+         <button value="Корпоративный сайт" class="contacts__info brief-input">Корпоративный сайт</button>
+         <button value="Интернет магазин"class="contacts__info brief-input">Интернет магазин</button>
+         <button value="Я не знаю" class="contacts__info brief-input">Я не знаю</button>
+          
+          <div class="brief-modal__footer">
+            <img src="images/left-arrow.svg" alt="Стрелка влева" class="nav__arrow-left">
+            <span class="close_modal_window"><img src="images/brief-close.svg" alt="" class="close__modal_window"></span>
+            <img src="../images/right-arrow.svg" alt="Стрелка вправо" class="nav__arrow-right">
+          </div>
+        </div>
+      </div>
+    </div>
   <!-- STOP WRITE CODE -->
   @@include('components/_footer.html')
   @@include('components/_scripts.html')

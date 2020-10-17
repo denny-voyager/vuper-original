@@ -130,3 +130,9 @@ form.addEventListener('submit', function(event) {
 });
 
 
+document.querySelector('.center-modal_wrapper').addEventListener('click', (event) => {
+  document.querySelectorAll('.center-modal_wrapper button').forEach(item => item.classList.remove('focused'));
+  if (event.target.classList.contains('contacts__info')) {
+    event.target.classList.add('focused');
+  }
+}, false)

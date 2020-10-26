@@ -26,10 +26,20 @@
     <h2 class="about__descr-bigger">Vuper -</h2><p class="about__descr"> это студия разработки сайтов, объединившая креативные умы со всех уголков нашей страны для того, чтобы делать свежие 
       и интересные проекты, которые 
       будут выделяться и приносить результат. </p>
-    <div class="about__slider-wrapper">
-      <div class="about__slider-squad-yellow" onclick="swapDiv(event,this);"><p class="yellow">за 1 год</p> усердной работы</div>
-      <div class="about__slider-squad-black" onclick="swapDiv(event,this);" ><p class="yellow">за 1 год</p> усердной работы</div>
-    </div>
+      <div id="tapslide" class="about__tapslide-wrapper">
+        <div id="con_1" class="con con-main" onclick="change_con()">
+          <p><span class="orange">За 1 год</span><br>
+          <span class="white">усердной работы</span></p>
+        </div>
+        
+        <div id="con_2" class="con con-minor" onclick="change_con()">
+          <span class="grey">сформировали</span>
+          <p>
+            <span class="orange">команду</span><br>
+            <span class="white">Специалистов</span>
+          </p>
+        </div>
+      </div>
     <p class="about__us">Мы построили весь процесс работы так, чтобы его было максимально удобно контролировать и Вы были уверенны в результате. </p>
     <div class="about__slider">
       <div class="about__leaders">

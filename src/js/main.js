@@ -53,3 +53,32 @@ var service = new Swiper('.service-container', {
   loop: true,
   loopFillGroupWithBlank: true,
 });
+
+//ANIMATION
+	
+var c1= document.getElementById('con_1');
+var c2= document.getElementById('con_2');
+
+function change_con(){
+  if(c1.classList.contains('con-main')){
+    swipe_con(c1, c2);
+  }else{
+    swipe_con(c2, c1);
+  }
+}
+
+
+function swipe_con(c1, c2){
+     check_main(c2);
+    check_minor(c1);
+}
+
+function check_main(c){
+    c.classList.add('con-main');
+    c.classList.remove('con-minor');
+}
+
+function check_minor(c){
+    c.classList.add('con-minor');
+    c.classList.remove('con-main');
+}

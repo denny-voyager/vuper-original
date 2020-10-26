@@ -16,7 +16,6 @@
     margin: 0 auto;
     background: #292929;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-    font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 24px;
@@ -70,42 +69,6 @@
     margin-top: 170px;
 }
 
-
-.about__slider-squad-black, .about__slider-squad-yellow {
-    width: 226px;
-    display: block;
-    margin: 0 auto;
-    padding: 45px 35px 45px 35px;
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #292929;
-    color: #fff;
-    z-index: 3;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-    margin-top: -153px;
-    cursor: pointer;
-}
-
-.yellow {
-    color: #ffd43c;
-    font-size: 28px;
-}
-
-.about__slider-squad-yellow {
-    position: relative;
-    left: -15px;
-    background-color: #ffd43c;
-}
-
-.about__slider-squad-black {
-    position: relative;
-}
-
 .about__leaders {
     display: flex;
     justify-content: center;
@@ -131,7 +94,6 @@
 
 
 .about__leaders-name {
-    font-family: Montserrat;
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
@@ -141,7 +103,6 @@
 
 .about__leaders-job {
     margin-top: 5px;
-    font-family: Montserrat;
     font-style: italic;
     font-weight: 600;
     font-size: 14px;
@@ -151,7 +112,6 @@
 
 .about__leader-link {
     margin-top: 5px;
-    font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 12px;
@@ -161,10 +121,69 @@
 
 .about__us {
     margin-top: 20px;
-    font-family: Montserrat;
     font-style: italic;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
+}
+
+.about__tapslide-wrapper{
+    position: relative;
+}
+
+.con{
+	display: inline-block;
+	position: absolute;
+	user-select: none;
+    width: 186px;
+	height: 161px;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.con-main{
+	top: 50px;
+	left: 50px;
+	background: #292929;
+	box-shadow: 0px 10px 40px #000;
+	z-index: 20;	
+	transition: .5s;
+}
+
+.con-minor{
+	top: 40px;
+	left: 40px;
+	background: #ffd43c;
+	box-shadow: none;
+	z-index: 10;
+	transition: .5s;
+}
+
+.con p{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+.grey{
+	display: block;
+	color: #606060;
+	font-size: 0.8em;
+	font-weight: 300;
+	padding-bottom: 40px;
+}
+
+.orange{
+	color: orange;
+}
+
+.white{
+	color: aliceblue;
+	font-size: .9em;
 }

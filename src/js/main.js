@@ -1,53 +1,53 @@
 var modal = document.getElementById("my_modal");
- var btn = document.getElementById("btn_modal_window");
- var span = document.getElementsByClassName("close_modal_window")[0];
+var btn = document.getElementById("btn_modal_window");
+var span = document.getElementsByClassName("close_modal_window")[0];
 
- btn.onclick = function () {
-    modal.style.display = "block";
- }
+btn.onclick = function () {
+  modal.style.display = "block";
+}
 
- span.onclick = function () {
+span.onclick = function () {
+  modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+  if (event.target == modal) {
     modal.style.display = "none";
- }
-
- window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+  }
 }
 
 
 
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
+}
 
 
-function swapDiv(event,elem){
-  elem.parentNode.insertBefore(elem,elem.parentNode.firstChild);
+function swapDiv(event, elem) {
+  elem.parentNode.insertBefore(elem, elem.parentNode.firstChild);
   let black = document.querySelector('.about__slider-squad-black'),
-      yellow = document.querySelector('.about__slider-squad-yellow');
+    yellow = document.querySelector('.about__slider-squad-yellow');
   yellow.style.left = '0px';
-  black.style.left ='-15px';
+  black.style.left = '-15px';
 };
 
 
 
-$("body").on('click', '[href*="#"]', function(e){
+$("body").on('click', '[href*="#"]', function (e) {
   var fixed_offset = 1;
   $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
   e.preventDefault();
@@ -83,36 +83,34 @@ var service = new Swiper('.service-container', {
   loopFillGroupWithBlank: true,
 });
 
-<<<<<<< HEAD
 //ANIMATION
-	
-var c1= document.getElementById('con_1');
-var c2= document.getElementById('con_2');
 
-function change_con(){
-  if(c1.classList.contains('con-main')){
+var c1 = document.getElementById('con_1');
+var c2 = document.getElementById('con_2');
+
+function change_con() {
+  if (c1.classList.contains('con-main')) {
     swipe_con(c1, c2);
-  }else{
+  } else {
     swipe_con(c2, c1);
   }
 }
 
 
-function swipe_con(c1, c2){
-     check_main(c2);
-    check_minor(c1);
+function swipe_con(c1, c2) {
+  check_main(c2);
+  check_minor(c1);
 }
 
-function check_main(c){
-    c.classList.add('con-main');
-    c.classList.remove('con-minor');
+function check_main(c) {
+  c.classList.add('con-main');
+  c.classList.remove('con-minor');
 }
 
-function check_minor(c){
-    c.classList.add('con-minor');
-    c.classList.remove('con-main');
+function check_minor(c) {
+  c.classList.add('con-minor');
+  c.classList.remove('con-main');
 }
-=======
 
 let message = {
   loading: 'Загрузка...',
@@ -124,9 +122,9 @@ let form = document.querySelector('.callback_form'),
   input = form.getElementsByTagName('input'),
   statusMessage = document.createElement('div');
 
-  statusMessage.classList.add('status');
+statusMessage.classList.add('status');
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
   event.preventDefault();
   form.appendChild(statusMessage);
 
@@ -137,25 +135,25 @@ form.addEventListener('submit', function(event) {
   let formData = new FormData(form);
 
   let obj = {};
-  formData.forEach(function(value, key) {
-      obj[key] = value;
+  formData.forEach(function (value, key) {
+    obj[key] = value;
   });
   let json = JSON.stringify(obj);
 
   request.send(json);
 
-  request.addEventListener('readystatechange', function() {
-      if (request.readyState < 4) {
-          statusMessage.innerHTML = message.loading;
-      } else if(request.readyState === 4 && request.status == 200) {
-          statusMessage.innerHTML = message.success;
-      } else {
-          statusMessage.innerHTML = message.failure;
-      }
+  request.addEventListener('readystatechange', function () {
+    if (request.readyState < 4) {
+      statusMessage.innerHTML = message.loading;
+    } else if (request.readyState === 4 && request.status == 200) {
+      statusMessage.innerHTML = message.success;
+    } else {
+      statusMessage.innerHTML = message.failure;
+    }
   });
 
   for (let i = 0; i < input.length; i++) {
-      input[i].value = '';
+    input[i].value = '';
   }
 });
 
@@ -166,4 +164,4 @@ document.querySelector('.center-modal_wrapper').addEventListener('click', (event
     event.target.classList.add('focused');
   }
 }, false)
->>>>>>> a43fde15c4a57bc9894cceef3ddf4008c072ab42
+

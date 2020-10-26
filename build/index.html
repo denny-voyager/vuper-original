@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -68,15 +67,30 @@
         </div>
       </div>
     <p class="about__us">Мы построили весь процесс работы так, чтобы его было максимально удобно контролировать и Вы были уверенны в результате. </p>
-    <div class="about__slider">
-      <div class="about__leaders">
-        <img src="/images/about_director.jpg" alt="Арт-директор" class="about__leaders-photo">
-         <div class="about__leaders-text">
-           <h4 class="about__leaders-name">Сяков Владислав</h4>
-         <h4 class="about__leaders-job">Арт-директор</h4>
-         <a href="https://www.instagram.com/syakov_designer/" title="Инстаграм" class="about__leader-link">Соц.сеть</a>
-         </div>
-    </div>
+      <div class="about-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide about__slide">
+            <div class="about__leaders">
+              <img src="/images/about_director.jpg" alt="Арт-директор" class="about__leaders-photo">
+               <div class="about__leaders-text">
+                 <h4 class="about__leaders-name">Сяков Владислав</h4>
+               <h4 class="about__leaders-job">Арт-директор</h4>
+               <a href="https://www.instagram.com/syakov_designer/" title="Инстаграм" class="about__leader-link">Соц.сеть</a>
+               </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="about__leaders">
+              <img src="./images/about_director.jpg" alt="Разработчик" class="about__leaders-photo">
+               <div class="about__leaders-text">
+                 <h4 class="about__leaders-name">Денис</h4>
+               <h4 class="about__leaders-job">Старший веб-разработчик</h4>
+               <a href="https://www.instagram.com/syakov_designer/" title="Инстаграм" class="about__leader-link">Соц.сеть</a>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
   </section>
@@ -282,7 +296,7 @@
     <div class="brief__content">
       <hr class=" first about__line"><div class="about_title">Бриф</div><hr class=" second about__line">
       <p class="seven-questions">7 вопросов которые помогут нам быстро расчитать цену.</p>
-      <button class="promo__subutp-btn brief__btn">Пройти бриф</button>
+      <button class="promo__subutp-btn brief__btn" id="btn_modal_window">Пройти бриф</button>
     </section>
     <section class="reviews" id="review">
       <div class="case__header">
@@ -394,13 +408,31 @@
       <h2 class="form-header">
         Задайте вопрос
       </h2>
-      <form action="" class="callback_form" id="form">
+      <form action="" method="POST" class="callback_form" id="form">
         <input type="text" name="name" required placeholder="Ваше имя" class="contacts__form">
         <input type="tel" name="phone" required  placeholder="Номер телефона" class="contacts__form" id="phone">
-        <input type="textarea" required placeholder="Ваш вопрос!" class="contacts__form">
+        <input type="textarea" name="quest" required placeholder="Ваш вопрос!" class="contacts__form">
         <button class="promo__utp-btn">Отправить</button>
       </form>
     </section>
+    <div id="my_modal" class="modal">
+      <div class="modal_content">
+        
+        <div class="center-modal_wrapper">
+          <p class="our__services-header brief__header">Какой сайт вам нужен?</p>
+         <button value="Одностраничный сайт" id="brief-input"  class="contacts__info brief-input">Одностраничный сайт</button>
+         <button value="Корпоративный сайт" class="contacts__info brief-input">Корпоративный сайт</button>
+         <button value="Интернет магазин"class="contacts__info brief-input">Интернет магазин</button>
+         <button value="Я не знаю" class="contacts__info brief-input">Я не знаю</button>
+          
+          <div class="brief-modal__footer">
+            <img src="images/left-arrow.svg" alt="Стрелка влева" class="nav__arrow-left">
+            <span class="close_modal_window"><img src="images/brief-close.svg" alt="" class="close__modal_window"></span>
+            <img src="../images/right-arrow.svg" alt="Стрелка вправо" class="nav__arrow-right">
+          </div>
+        </div>
+      </div>
+    </div>
   <!-- STOP WRITE CODE -->
   <footer>
   
